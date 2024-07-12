@@ -1,0 +1,40 @@
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 10vh 5vw 6vh 5vw;
+    /* padding-bottom: 2vh; */
+    width: 30vw;
+    height: 20vh;
+    background: #ffffff;
+    color: #29704f;
+}
+
+.logo {
+    height: 10vh;
+}
+
+.contact-info {
+    overflow: hidden;
+}
+
+.contact-name {
+    font-weight: 600;
+    overflow-y: hidden !important;
+}
+
+a:link {
+    text-decoration: none;
+    color: #29704f;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #29704f;
+    text-decoration-style: solid;
+}

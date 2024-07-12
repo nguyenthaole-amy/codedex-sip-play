@@ -1,0 +1,35 @@
+.menu-container {
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* z-index: -100; */
+    margin: 6vh 5vw 6vh 5vw;
+    /* background: #c5f767; */
+}
+
+.cursor-pointer {
+    width: 50vw;
+}
+
+hr {
+    color: #29704f;
+    background: #29704f;
+    height: 0.1vh;
+    width: 80vw;
+}
+
+.menu {
+    width: 90vw;
+    height: 90vh;
+    text-align: center;
+    font-size: 2rem;
+    color: #29704f;
+    font-weight: 600;
+    white-space: pre-line;
+}
+
+canvas {
+    overflow: visible;
+}
